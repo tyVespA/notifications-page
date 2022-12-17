@@ -9,35 +9,96 @@
   
   <title>Frontend Mentor | Notifications page</title>
 
+  <script src="./script.js" defer></script>
 </head>
 <body>
 
-  Notifications 3
+  <main>
+    <div class="notifications-management">
+      <h1>
+        Notifications <span class="notification-count">3</span>
+      </h1>
+      <button class="mark-all-as-read">Mark all as read</button>
+    </div>
+    
+    <section class="notifications">
+      <div class="notification unread">
+        <img src="./assets/images/avatar-mark-webber.webp" alt="user-pfp" class="user-pfp">
+        <div>
+          <p class="notification-text">
+            <a href="#" class="user-name">Mark Webber</a> <span class="notification-content">reacted to your recent post</span> <a href="#" class="post-name">My first tournament today!</a>
+          </p>
+          <p class="notification-date">1m ago</p>
+        </div>
+      </div>
 
-  Mark all as read
+      <div class="notification unread">
+        <img src="./assets/images/avatar-angela-gray.webp" alt="user-pfp" class="user-pfp">
+        <div>
+          <p class="notification-text">
+            <a href="#" class="user-name">Angela Gray</a> <span class="notification-content">followed you</span>
+          </p>
+          <p class="notification-date">5m ago</p>
+        </div>
+      </div>
 
-  Mark Webber reacted to your recent post My first tournament today!
-  1m ago
+      <div class="notification unread">
+        <img src="./assets/images/avatar-jacob-thompson.webp" alt="user-pfp" class="user-pfp">
+        <div>
+          <p class="notification-text">
+            <a href="#" class="user-name">Jacob Thompson</a> <span class="notification-content">has joined your group</span> <a href="#" class="group-name">Chess Club</a>
+          </p>
+          <p class="notification-date">1 day ago</p>
+        </div>
+      </div>
 
-  Angela Gray followed you
-  5m ago
+      <div class="notification">
+        <img src="./assets/images/avatar-rizky-hasanuddin.webp" alt="user-pfp" class="user-pfp">
+        <div>
+          <p class="notification-text">
+            <a href="#" class="user-name">Rizky Hasanuddin</a> <span class="notification-content">sent you a private message</span>
+          </p>
+          <p class="notification-date">5 days ago</p>
+          <p class="private-message">
+            Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.
+          </p>
+        </div>
+      </div>
 
-  Jacob Thompson has joined your group Chess Club
-  1 day ago
+      <div class="notification">
+        <img src="./assets/images/avatar-kimberly-smith.webp" alt="user-pfp" class="user-pfp">
+        <div class="image-comment">
+          <div>
+            <p class="notification-text">
+              <a href="#" class="user-name">Kimberly Smith</a> <span class="notification-content">commented on your picture</span>
+            </p>
+            <p class="notification-date">1 weeks ago</p>
+          </div>
+          <img src="./assets/images/image-chess.webp" alt="">
+        </div>
+      </div>
 
-  Rizky Hasanuddin sent you a private message
-  5 days ago
-  Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
-  I'm already having lots of fun and improving my game.
+      <div class="notification">
+        <img src="./assets/images/avatar-nathan-peterson.webp" alt="user-pfp" class="user-pfp">
+        <div>
+          <p class="notification-text">
+            <a href="#" class="user-name">Nathan Peterson</a> <span class="notification-content">reacted to your recent post</span> <a href="#" class="post-name">5 end-game strategies to increase your win rate</a>
+          </p>
+          <p class="notification-date">2 weeks ago</p>
+        </div>
+      </div>
 
-  Kimberly Smith commented on your picture
-  1 week ago
+      <div class="notification">
+        <img src="./assets/images/avatar-anna-kim.webp" alt="user-pfp" class="user-pfp">
+        <div>
+          <p class="notification-text">
+            <a href="#" class="user-name">Anna Kim</a> <span class="notification-content">left the group</span> <a href="#" class="group-name">Chess Club</a>
+          </p>
+          <p class="notification-date">2 weeks ago</p>
+        </div>
+      </div>
 
-  Nathan Peterson reacted to your recent post 5 end-game strategies to increase your win rate
-  2 weeks ago
-
-  Anna Kim left the group Chess Club
-  2 weeks ago
-  
+    </section>
+  </main>  
 </body>
 </html>

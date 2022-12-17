@@ -1,1 +1,29 @@
 @use "./base";
+@use "./components";
+
+body {
+  background-color: $neutral-200;
+  display: flex;
+}
+
+main {
+  padding: 30px 20px;
+  background-color: $neutral-100;
+  max-width: 800px;
+  margin: auto;
+
+  @include for-tablet-up {
+   padding: 30px; 
+  }
+}
+
+h1 {
+  font-size: 1.2rem;
+}
+
+.notifications-management {
+  display: flex;
+  justify-content: space-between;
+  color: $neutral-900;
+  margin-bottom: 35px;
+}

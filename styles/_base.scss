@@ -78,6 +78,17 @@ $neutral-900:   hsl(224, 21%, 14%);
 
 
 /*------------------------------------*\
+  #MIXINS
+\*------------------------------------*/
+
+@mixin for-tablet-up {
+  @media (min-width: 900px) { @content; }
+}
+
+
+
+
+/*------------------------------------*\
   #TYPOGRAPHY
 \*------------------------------------*/
 
@@ -86,3 +97,15 @@ $neutral-900:   hsl(224, 21%, 14%);
   src: url(../assets/fonts/PlusJakartaSans-VariableFont_wght.ttf);
   font-weight: 1 999;
 }
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: $neutral-900;
+  font-weight: 1;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
