@@ -77,7 +77,6 @@ p, h1, h2, h3, h4, h5, h6 {
 body {
   font-family: "Plus Jakarta Sans", sans-serif;
   color: hsl(224deg, 21%, 14%);
-  font-weight: 1;
 }
 
 a {
@@ -164,7 +163,6 @@ p, h1, h2, h3, h4, h5, h6 {
 body {
   font-family: "Plus Jakarta Sans", sans-serif;
   color: hsl(224deg, 21%, 14%);
-  font-weight: 1;
 }
 
 a {
@@ -174,8 +172,6 @@ a {
 
 .notification-count {
   margin-left: 10px;
-  position: relative;
-  bottom: 4px;
   background-color: hsl(219deg, 85%, 26%);
   padding: 1px 13px 4px 13px;
   border-radius: 5px;
@@ -364,7 +360,6 @@ p, h1, h2, h3, h4, h5, h6 {
 body {
   font-family: "Plus Jakarta Sans", sans-serif;
   color: hsl(224deg, 21%, 14%);
-  font-weight: 1;
 }
 
 a {
@@ -451,7 +446,6 @@ p, h1, h2, h3, h4, h5, h6 {
 body {
   font-family: "Plus Jakarta Sans", sans-serif;
   color: hsl(224deg, 21%, 14%);
-  font-weight: 1;
 }
 
 a {
@@ -461,8 +455,6 @@ a {
 
 .notification-count {
   margin-left: 10px;
-  position: relative;
-  bottom: 4px;
   background-color: hsl(219deg, 85%, 26%);
   padding: 1px 13px 4px 13px;
   border-radius: 5px;
@@ -588,14 +580,16 @@ button.mark-all-as-read {
 
 body {
   background-color: hsl(210deg, 60%, 98%);
+  height: 100vh;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 main {
   padding: 30px 20px;
   background-color: hsl(0deg, 0%, 100%);
   max-width: 800px;
-  margin: auto;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 @media (min-width: 900px) {
