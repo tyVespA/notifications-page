@@ -198,6 +198,9 @@ button.mark-all-as-read {
   margin-bottom: 15px;
   color: hsl(219deg, 12%, 42%);
 }
+.notification:last-child {
+  margin-bottom: 0;
+}
 @media (min-width: 900px) {
   .notification {
     padding: 20px;
@@ -480,6 +483,10 @@ button.mark-all-as-read {
   border-radius: 10px;
   margin-bottom: 15px;
   color: hsl(219deg, 12%, 42%);
+}
+
+.notification:last-child {
+  margin-bottom: 0;
 }
 
 @media (min-width: 900px) {

@@ -28,6 +28,10 @@ button.mark-all-as-read {
   margin-bottom: 15px;
   color: $neutral-700;
 
+  &:last-child {
+    margin-bottom: 0;
+  }
+
   @include for-tablet-up {
     padding: 20px;
     font-size: 0.9rem;
