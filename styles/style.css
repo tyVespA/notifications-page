@@ -222,6 +222,14 @@ button.mark-all-as-read {
   justify-content: space-between;
   max-width: 600px;
 }
+.notification .image-comment img {
+  border: 2px solid transparent;
+  border-radius: 10px;
+}
+.notification .image-comment img:hover {
+  cursor: pointer;
+  border-color: hsl(205deg, 33%, 90%);
+}
 .notification .user-name {
   font-weight: 999;
   margin-right: 5px;
@@ -252,6 +260,17 @@ button.mark-all-as-read {
   color: hsl(219deg, 12%, 42%);
   font-weight: 450;
   max-width: 600px;
+}
+.notification .private-message:hover {
+  background-color: hsl(211deg, 68%, 94%);
+  cursor: pointer;
+}
+
+.mark-all-as-read:hover,
+.user-name:hover,
+.post-name:hover,
+.group-name:hover {
+  color: hsl(219deg, 85%, 26%);
 }
 
 .notification.unread {
@@ -494,6 +513,16 @@ button.mark-all-as-read {
   max-width: 600px;
 }
 
+.notification .image-comment img {
+  border: 2px solid transparent;
+  border-radius: 10px;
+}
+
+.notification .image-comment img:hover {
+  cursor: pointer;
+  border-color: hsl(205deg, 33%, 90%);
+}
+
 .notification .user-name {
   font-weight: 999;
   margin-right: 5px;
@@ -530,6 +559,18 @@ button.mark-all-as-read {
   color: hsl(219deg, 12%, 42%);
   font-weight: 450;
   max-width: 600px;
+}
+
+.notification .private-message:hover {
+  background-color: hsl(211deg, 68%, 94%);
+  cursor: pointer;
+}
+
+.mark-all-as-read:hover,
+.user-name:hover,
+.post-name:hover,
+.group-name:hover {
+  color: hsl(219deg, 85%, 26%);
 }
 
 .notification.unread {

@@ -50,6 +50,16 @@ button.mark-all-as-read {
     gap: 20px;
     justify-content: space-between;
     max-width: 600px;
+
+    img {
+      border: 2px solid transparent;
+      border-radius: 10px;
+      
+      &:hover {
+        cursor: pointer;
+        border-color: $neutral-300-2;
+      }
+    }
   }
 
   .user-name {
@@ -88,7 +98,19 @@ button.mark-all-as-read {
     color: $neutral-700;
     font-weight: 450;
     max-width: 600px;
+    
+    &:hover {
+      background-color: $neutral-300-1;
+      cursor: pointer;
+    }
   }
+}
+
+.mark-all-as-read:hover,
+.user-name:hover,
+.post-name:hover,
+.group-name:hover {
+  color: $primary-blue;
 }
 
 .notification.unread {
