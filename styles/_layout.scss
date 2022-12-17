@@ -11,6 +11,7 @@ main {
   background-color: $neutral-100;
   max-width: 800px;
   margin: auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
   @include for-tablet-up {
    padding: 30px; 
